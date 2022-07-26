@@ -1,0 +1,27 @@
+#qa_main {height: 100vh; padding: 100px 0;}
+
+.qa_title {text-align: center; margin: 30px 0 40px; font-size: 42px; font-weight: 700; color: #6d4847;}
+
+/* #qa*/
+#often {margin-bottom: 50px; font-family: "Nanum Gothic"; }
+.often_text {margin-bottom: 30px; font-weight: 700; font-size: 20px; color: #6d4847; letter-spacing: 2px;}
+
+#often ul {border-top: 1px solid #6d4847;}
+#often li {border-bottom: 1px solid #6d4847;}
+.ask {height: 50px; line-height: 50px; margin-left: 20px; cursor: pointer; font-size: 16px; font-weight: 700; color: #6d4847; letter-spacing: 1.5px; }
+.answer {display: none; padding: 30px 25px; background: rgba(223, 152, 156, 0.7); font-size: 14px; line-height: 1.6; letter-spacing: 1.2px; }
+
+#nobo_main {height: 100vh; padding: 100px 0;}
+.nobo_title {text-align: center; padding: 30px 0 40px; font-size: 42px; font-weight: 700; color: #6d4847;}
+
+
+table {border-collapse: collapse; border-top: 2px solid #6d4847; font-size: 14px; font-family: "Nanum Gothic"; padding-bottom: 100px; }
+th {height: 50px; border-bottom: 1px solid #6d4847;}
+td {padding: 10px 0; border-bottom: 1px solid rgba(109, 72, 71, 0.3); }
+
+tr td:first-child {width: 100px; text-align: center;}
+tr td:last-child {width: 120px; text-align: center; }
+.nobo_bg {background: rgba(223, 152, 156, 0.4);}
+
+tr:nth-child(1):hover {background:  #fff;}
+tr:hover {background:  rgba(223, 152, 156, 0.7);}

@@ -1,0 +1,224 @@
+.lobo {margin-bottom: 500px;}
+.lobo .inner {margin: 200px auto;}
+
+.lobo_bn_danha {height: 480px; background: url(../img/lobo_danha/lobo_bn.png) center;}
+.lobo_bn_riul {height: 480px; background: url(../img/lobo_riul/lobo_bn.png) center;}
+.lobo_bn_chaikim {height: 480px; background: url(../img/lobo_chaikim/lobo_bn.png) center; }
+.lobo_bn_happly {height: 480px; background: url(../img/lobo_happly/lobo_bn.jpg) center; }
+
+
+.inner {position: relative;}
+
+
+/*se1*/
+.lobo_main {position: absolute; left: 40px; top: -430px;}
+.lobo_main img {width: 100%;}
+.lobo_main_text {position: absolute; right: 95px; top: -50px; }
+.lobo_logo img {width: 210px; margin-bottom: 30px;}
+.lobo_main_text p {line-height: 2; font-family: "Nanum Gothic"; font-size: 20px; font-weight: 500; letter-spacing: 1.2px; }
+.lobo_main_text p:nth-child(2) {font-size: 25px; font-weight: 700; letter-spacing: 2px; }
+
+
+/*se2*/
+.lobo_contents {margin-top: 600px;}
+
+.lobo_contents li {padding-bottom: 500px;}
+
+.lobo_contents li div {float: left; width: 48%; margin-right: 4%; }
+.lobo_contents li div:nth-child(2) {margin-right: 0;}
+
+.content img {width: 100%; }
+
+.lobo_contents_text {margin-top: 30px;}
+h5 {font-size: 30px; line-height: 1.2; font-weight: 700; letter-spacing: 2px;  margin-bottom: 20px;}
+.lobo_number {font-size: 50px;  color: #df989c; font-weight: 900;}
+.lobo_contents_text p {font-family: "Nanum Gothic"; letter-spacing: 1.2px; font-size: 14px; line-height: 1.8; }
+
+/*se3*/
+.lobo_bbn img {width: 100%;}
+
+
+/*se4*/
+.gallery {padding-top: 150px;}
+.gallery_content li {float: left; width: 32%; margin-right: 2%; margin-bottom: 40px; }
+.gallery_content li:nth-child(3n) {margin-right: 0; }
+.gallery_content li img {width: 100%;}
+
+.gallery_content li {display: none; }
+.inner .block {display: inline-block; }
+.gallery_content li p:nth-child(2) {display: none;}
+
+.gallery_content li:hover p:nth-child(1) {display: none;}
+.gallery_content li:hover p:nth-child(2) {display: inline-block;}
+
+.more {padding-top: 20px; text-align: center; font-weight: 700; cursor: pointer;}
+
+
+
+/*se5*/
+
+.lobo_video {position: relative; }
+.lobo_support_title {position: absolute; left: 60px; top: 260px; color: #fff;}
+.lobo_video video {width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*반응형웹 tablet 영역*/
+@media screen and (max-width:1200px) {
+    .lobo {margin-bottom: 200px;}
+    .lobo .inner {margin: 200px auto;}
+
+
+    /*se1*/
+    .lobo_bn_danha {height: 260px; }
+    .lobo_bn_riul {height: 260px; }
+    .lobo_bn_chaikim {height: 260px; }
+    .lobo_bn_happly {height: 260px; }
+
+
+    .lobo_main {left: 0px; top: -330px;}
+    .lobo_main img {width: 60%;}
+    .lobo_main_text {right: -0px; top: -120px; width: 50%; }
+    .lobo_logo img {width: 110px; margin-bottom: 15px;}
+    .lobo_main_text p {line-height:1.6; font-size: 14px; letter-spacing: 1px; }
+    .lobo_main_text p:nth-child(2) {font-size: 20px; }
+
+
+
+
+    /*se2*/
+    .lobo_contents {margin-top: 400px;}
+
+    .lobo_contents li {padding-bottom: 350px;}
+    .lobo_contents li:last-child {padding-bottom: 0;}
+
+
+    .content img {width: 100%; }
+
+    .lobo_contents_text {margin-top: -10px;}
+    h5 {font-size: 20px; margin-bottom: 10px; letter-spacing: 1.1px;}
+    .lobo_number {font-size: 30px; }
+    .lobo_contents_text p { letter-spacing: 1.1px; font-size: 14px; line-height: 1.6; }
+
+
+
+    /*se4*/
+    h1 {margin-bottom: 40px; font-size: 45px; }
+    
+    .gallery {padding-top: 20px;}
+    .gallery_content li {margin-bottom: 20px; }
+
+    .more {padding-top: 20px; text-align: center; font-weight: 700; cursor: pointer;}
+
+
+
+    /*se5*/
+    h6 {font-size: 15px;}
+    h4 {font-size: 25px; }
+
+    .lobo_support_title {left: 30px; top: 200px;}
+    .lobo_video video {width: 100%;}
+
+
+
+
+
+}
+    
+    
+    
+    
+    
+    
+    
+/*반응형웹 mobile 영역*/
+@media screen and (max-width:767px) {
+
+    .lobo .inner {margin: 60px auto;}
+
+
+    /*se1*/
+    .lobo_bn_danha {height: 150px; }
+    .lobo_bn_riul {height: 150px; }
+    .lobo_bn_chaikim {height: 150px; }
+    .lobo_bn_happly {height: 150px; }
+
+
+
+    .lobo_main {left: 0px; top: -100px;}
+    .lobo_main img {width: 40%;}
+    .lobo_main_text {right: 0px; top: -40px; }
+    .lobo_logo img {width: 70px; margin-bottom: 10px;}
+    .lobo_main_text p {line-height:1.6; font-size: 11px; letter-spacing: 1px; }
+    .lobo_main_text p:nth-child(2) {font-size: 14px; letter-spacing: 0.5px; }
+
+
+
+    /*se2*/
+    .riul_contents_text {font-size: 14px;}
+
+
+    .lobo_contents {margin-top: 250px;}
+
+    .lobo_contents li {padding-bottom: 180px;}
+    .lobo_contents li:last-child {padding-bottom: 130px;}
+
+
+    .content img {width: 100%; }
+    .lobo_text_none {display: none;}
+    .lobo_contents_text {margin-top: -10px;}
+    h5 {font-size: 16px; margin-bottom: 8px; letter-spacing: 1px;}
+    .lobo_number {font-size: 20px; }
+    .lobo_contents_text p { letter-spacing: 1px; font-size: 12px; line-height: 1.4; }
+
+    
+
+
+
+    /*se4*/
+    h1 {margin-bottom: 40px; font-size: 25px; }
+    
+    .gallery {padding-top: 20px;}
+    .gallery_content li {margin-bottom: 10px; }
+
+    .more {padding-top: 20px; text-align: center; font-weight: 700; cursor: pointer;}
+
+
+    
+    /*se5*/
+    h6 {font-size: 10px;}
+    h4 {font-size: 20px; }
+
+    .lobo_support_title {left: 20px; top: 120px; }
+
+
+
+
+
+
+
+}
+
+

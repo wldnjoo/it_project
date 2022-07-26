@@ -1,0 +1,65 @@
+#support_main {padding: 100px 0;}
+#support_main .inner {overflow: hidden; }
+
+.support_title {  font-size: 70px; font-weight: 700; letter-spacing: 3px; color: rgba(109, 72, 71, 0.4); }
+
+#support_sec01,
+#support_sec02,
+#support_sec03,
+#support_sec04 {padding: 150px 0;}
+
+
+.support_brand {text-align: center; font-size: 40px; font-weight: 700; padding: 20px 0; }
+
+#support_sup_01 {padding: 50px 0;}
+
+.support_sup_slide {
+    --swiper-theme-color: #df989c;
+    --swiper-pagination-color: #df989c;
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-bullet-width: 8px;
+    --swiper-pagination-bullet-height: 8px;
+    --swiper-pagination-bullet-inactive-color: #6d4847;
+    --swiper-pagination-bullet-inactive-opacity: 0.8;
+    position: relative;
+    padding: 50px 0;
+
+}
+
+/*pagination, scrollbar 위치조절*/
+.support_sup_slide .swiper-pagination {position: absolute; bottom: -500px;}
+
+
+
+.sup_img {position: relative; }
+
+.sup_sub_text {display: none; position: absolute; right: 10px; bottom: 15px; font-family: "Nanum Gothic"; font-size: 14px; font-weight: 700; letter-spacing: 3px; line-height: 1.4;  }
+
+.sup_img:hover .sup_sub_text {display: block;}
+.sup_img:hover img {opacity: 0.3;}
+
+
+
+
+/*support_q_gnb*/
+#support_q_gnb {position: fixed; top: 40%; left: -100px; text-align: right; }
+#support_q_gnb a {display: block; color: #6d4847; font-weight: 700; }
+
+.support_q_gnb {width: 120px; height: 50px; margin-bottom: 20px; line-height: 50px; padding-right: 20px; background: #df989c; position: relative; }
+.support_q_gnb:hover { animation: motion3 0.5s; animation-fill-mode: forwards; }
+
+.support_q_sub {display: none; position: absolute; left: 120px; top: 0; width: 120px; text-align: center; background: rgba(522, 255, 255, 0.3); }
+.support_q_gnb:hover .support_q_sub {display: block; width: 100%; }
+.support_q_sub a {display: block; color: #6d4847;  }
+.support_q_sub a:hover {border: 1px solid rgba(223, 152, 156, 0.5); }
+
+
+
+.show_q_gnb {width: 120px; height: 50px; line-height: 50px; padding-right: 20px; background: #df989c;  }
+.show_q_gnb:hover { animation: motion3 0.5s; animation-fill-mode: forwards; }
+
+
+@keyframes motion3 {
+    0% {transform: translate(0);}
+    100% {transform: translate(100px);}
+}

@@ -1,0 +1,167 @@
+#sodam_main {padding: 80px 0 ; }
+
+/*section1*/
+.sodam_section1 {width: 100%; height: 100vh; position: relative; background: url(../img/sodam/section_01.png) center; }
+
+.sodam_so {position: absolute; top: 25%;  width: 100%; text-align: center; font-size: 20px;}
+.sodam_so div {display: inline-block; margin-right: 20px; vertical-align: text-top; line-height: 1.6; font-weight: 700; letter-spacing: 2px; color: #271717; }
+.sodam_so div:nth-child(1) {font-size: 30px; letter-spacing: 10px;}
+
+.sodam_section1 p {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%; font-size: 60px; font-weight: 900; text-align: center; letter-spacing: 10px; color: #271717;}
+
+
+
+/*section2*/
+.sodam_section2 {width: 100%; height: 100vh; position: relative; background: url(../img/sodam/section_02.png) center; }
+.since {position: absolute; left: 10%; top: 25%; font-size: 60px; font-weight: 700; color: #271717;}
+.sodam_section2 p {width: 100%; position: absolute; left: 10%; top: 50%; transform: translateY(-50%); line-height: 1.6; font-family: "Nanum Gothic"; font-size: 20px; font-weight: 700; letter-spacing: 4px; }
+
+
+/*section3*/
+.sodam_section3 {width: 100%; margin-bottom: 400px; position: relative; }
+
+/*01*/
+.sec3_01 {padding-top: 20px; }
+.n_box_1 {margin-top: 220px; width: 280px; height: 100px; background: #df989c;}
+.sodam_text {font-size: 60px; font-weight: 700; letter-spacing: 5px; color: #6d4847; }
+.sodam_section3 .sodam_text_01 {position: absolute; left: 11%; top: 200px; }
+.sodam_n {font-size: 80px;}
+.sodam_text_sub {font-family: "Nanum Gothic"; color: #6d4847; font-size: 26px; font-weight: 700; letter-spacing: 2px;}
+.sodam_text_sub_01 {position: absolute; left: 17%; top: 300px;}
+
+/*02*/
+.sec3_02 {text-align: right;}
+.n_box_2 {float: right; margin-top: 500px; width: 280px; height: 100px; background: #df989c;}
+.sodam_section3 .sodam_text_02 {position: absolute; right: 11%; top: 800px; }
+.sodam_text_sub_02 {position: absolute; right: 16%; top: 900px;}
+
+/*03*/
+.n_box_3 {margin-top: 980px; width: 280px; height: 100px; background: #df989c;}
+.sodam_section3 .sodam_text_03 {position: absolute; left: 11%; top: 1280px; }
+.sodam_text_sub_03 {position: absolute; left: 17%; top: 1380px; font-size: 20px; line-height: 1.4;}
+
+
+
+
+
+
+
+
+
+/*반응형웹 tablet 영역*/
+@media screen and (max-width:1200px) {
+
+    /*section1*/
+    .sodam_so {top: 28%; }
+    .sodam_so div {margin-right: 10px; line-height: 1.4; letter-spacing: 1px; }
+    .sodam_so div:nth-child(1) {font-size: 30px; letter-spacing: 10px;}
+
+    .sodam_section1 p {width: 80%; line-height: 1.6; font-size: 45px; text-align: center; letter-spacing: 8px; }
+
+
+
+
+    /*section2*/
+
+    .since {top: 36%; }
+    .sodam_section2 p {width: 80%; top: 52%; line-height: 1.6; }
+
+        
+
+
+
+
+    /*section3*/
+    .sodam_section3 {margin-bottom: 370px; }
+
+    /*01*/
+    .sec3_01 {padding-top: 20px;}
+    .n_box_1 {margin-top: 220px; width: 200px; }
+    .sodam_text {font-size: 50px; }
+    .sodam_section3 .sodam_text_01 {left: 17%; top: 210px; }
+    .sodam_n {font-size: 70px;}
+    .sodam_text_sub {font-size: 20px; line-height: 1.4; font-weight: 700; letter-spacing: 2px;}
+    .sodam_text_sub_01 {width: 65%; left: 30%; top: 300px;}
+
+    /*02*/
+    .sec3_02 {text-align: right;}
+    .n_box_2 {float: right; width: 200px;}
+    .sodam_section3 .sodam_text_02 {right: 18%; top: 810px; }
+    .sodam_text_sub_02 {width: 54%; right: 31%; top: 905px;}
+
+    /*03*/
+    .n_box_3 {width: 200px; }
+    .sodam_section3 .sodam_text_03 {left: 18%; top: 1290px; }
+    .sodam_text_sub_03 {width: 65%; left: 30%; top: 1375px; font-size: 18px; line-height: 1.3;}
+
+}
+    
+    
+    
+    
+    
+    
+    
+
+/*반응형웹 mobile 영역*/
+@media screen and (max-width:767px) {
+
+    /*section1*/
+    .sodam_so {top: 28%; }
+    .sodam_so div {display: block; margin-right: 0; margin-bottom: 10px; line-height: 1.4; letter-spacing: 1px; font-size: 16px; }
+    .sodam_so div:nth-child(1) {font-size: 20px; letter-spacing: 10px;}
+
+    .sodam_section1 p {width: 80%; top: 56%; line-height: 1.4; font-size: 21px; letter-spacing: 7px; }
+
+    
+
+
+
+    /*section2*/
+
+    .since {top: 28%; font-size: 30px; }
+    .sodam_section2 p {width: 80%; top: 48%; line-height: 1.6; font-size: 14px; letter-spacing: 3px; }
+
+
+
+    /*section3*/
+    .sodam_section3 {padding-top: 50px; margin-bottom: 270px; }
+
+    /*01*/
+    .sec3_01 {padding-top: 10px;}
+    .n_box_1 {margin-top: 100px; width: 120px; height: 70px; }
+    .sodam_text {font-size: 30px; letter-spacing: 2px; }
+    .sodam_section3 .sodam_text_01 {left: 18%; top: 140px; }
+    .sodam_n {font-size: 50px;}
+    .sodam_text_sub {font-size: 14px; line-height: 1.4; font-weight: 700; letter-spacing: 0.5px;}
+    .sodam_text_sub_01 {width: 60%; left: 35%; top: 200px;}
+
+
+    /*02*/
+    .n_box_2 {margin-top: 250px; width: 120px; height: 70px;}
+    .sodam_section3 .sodam_text_02 {right: 18%; top: 460px; }
+    .sodam_text_sub_02 {width: 55%; right: 34%; top: 520px;}
+
+
+    /*03*/
+    .n_box_3 {margin-top: 550px; width: 120px; height: 70px; }
+    .sodam_section3 .sodam_text_03 {left: 18%; top: 760px; }
+    .sodam_text_sub_03 {width: 58%; left: 35%; top: 820px; font-size: 13px; line-height: 1.3;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
