@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+* {margin: 0; padding: 0; box-sizing: border-box; }
+body {font-family: "Nanum Gothic", "Fredoka One", sans-serif; font-size: 16px; color: #333;}
+img {vertical-align: middle; }
+li {list-style: none; }
+a {text-decoration: none; }
+.clearfix:after {content: ""; display: block; clear: both; }
+
+.inner {width: 1200px; margin: 0 auto; }
+
+
+/*header*/
+header {position: fixed; width: 100%; height: 70px; line-height: 70px; background: rgba(255,255,255,0.7); z-index: 99; }
+header>.inner {position: relative;}
+.logo {float: left; width: 100px; height: 50px; }
+.logo img {width: 100%;}
+
+
+.gnb {float: right; }
+.gnb li {display: inline-block; padding: 0 10px; margin: 0 10px; position: relative; }
+.gnb li a {display: block; font-family: "Fredoka One"; color: #e80289; letter-spacing: 2px; font-size: 20px;}
+
+.line {display: none; width: 100%; height: 4px; background: #e80289; position: absolute; left: 0; top: 60px; }
+.gnb li:hover .line {display: block; animation: motion1 0.5s;}
+
+@keyframes motion1 {
+    0% {width: 0; }
+    100% {width: 100%; }
+}
+
+
+.gnb .header_btn {font-size: 14px;}
+.store { padding: 6px 20px; border: 2px solid #e80289; border-radius: 20px 0 20px 20px; }
+.header_btn:hover .store {background: rgba(232, 2, 137, 0.8); color: #fff;}
+
+
+/*menu*/
+#menu {display: none; position: absolute; right: 0; top: 0px; width: 40px; cursor: pointer; }
+#menu_content {position: fixed; right: -70%; top: 0; width: 70%; height: 100vh; background: #e80289; color: #6d4847; text-align: right; z-index: 999;  }
+h3 {position: absolute; left: 5%; top: 10%; font-size: 40px; cursor: pointer; color: #fff; }
+.gnb_menu {margin-top: 10%; margin-right: 10%; }
+.gnb_menu a {display: block; color: #fff; font-size: 30px; font-weight: 900; letter-spacing: 2px; }
+.gnb_menu li:hover {transition: transform 0.2s; transform: scale(1.1); }
+.gnb_menu li:hover a {color: rgba(255,255,255,0.6);}
+
+
+
+
+
+
+/*footer*/
+footer {background: #e80289; color: #fff; padding: 50px 0; font-size: 14px;}
+footer>.inner {position: relative; }
+
+.foot_logo {width: 150px; margin-bottom: 50px; }
+.foot_logo img {width: 100%;}
+
+.foot_company {line-height: 1.6; margin-bottom: 30px; letter-spacing: 1px;}
+.foot_mar {margin: 0 10px;}
+
+.foot_info {line-height: 1.6; letter-spacing: 1px;}
+
+.foot_sns {position: absolute; right: 0; top: 0;}
+.foot_sns li {display: inline-block; margin: 0 10px; }
+.foot_sns li img {width: 50px;}
+.foot_sns li:hover {opacity: 0.7;}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    /*index*/
+    .inner {width: 85%;}
+
+    #menu {display: inline-block;}
+
+    .gnb {display: none;}
+
+    /*footer*/
+    footer {font-size: 12px;}
+
+
+    /*menu*/
+    h3 {position: absolute; left: 5%; top: 5%; font-size: 50px; cursor: pointer; color: #fff; }
+}
+
+
+
+
+@media screen and (max-width:767px) {
+   
+    /*index*/
+    .logo {width: 80px; }
+
+
+    /*footer*/
+    footer {font-size: 10px;}
+
+    .foot_logo {width: 80px; margin-bottom: 30px; }
+    .foot_logo img {width: 100%;}
+
+    .foot_company {line-height: 1.6; margin-bottom: 15px; }
+    .foot_mar {margin: 0 5px;}
+
+    .foot_info {line-height: 1.6;}
+
+    .foot_sns {top: 5px;}
+    .foot_sns li {display: inline-block; margin: 0 3px; }
+    .foot_sns li img {width: 30px;}
+
+
+    /*menu*/
+  
+    #menu_content {position: fixed; right: -70%; top: 0; width: 70%; height: 100vh; background: #e80289; color: #6d4847; text-align: right; z-index: 999;  }
+    h3 {position: absolute; left: 5%; top: 3%; font-size: 30px; cursor: pointer; color: #fff; }
+    .gnb_menu {margin-top: 10%; margin-right: 10%; }
+    .gnb_menu a {display: block; color: #fff; font-size: 20px; font-weight: 900; letter-spacing: 2px; }
+    .gnb_menu li:hover {transition: transform 0.2s; transform: scale(1.1); }
+    .gnb_menu li:hover a {color: rgba(255,255,255,0.6);}
+
+}

@@ -1,0 +1,236 @@
+/*visual*/
+#visual {padding: 70px 0 0 0;}
+#visual img {width: 100%;}
+
+#sub_visual {display: none; padding: 70px 0 0 0; }
+#sub_visual img {width: 100%; }
+
+
+#index {background: rgba(245, 158, 25, 0.9);}
+
+/*section*/
+#section {padding: 100px 0;}
+
+h1 {margin-left: 40px; line-height: 1.5;  padding: 50px 0; padding-bottom: 100px; font-family: "Fredoka One"; font-size: 60px; color: #462456; letter-spacing: 3px;}
+
+#section1 {padding-top: 70px;}
+
+
+/*section1*/
+/*.br_01*/
+.br_01 {position: relative; padding-bottom: 700px;}
+.brand_img {float: left; width: 55%; }
+.brand_img img {width: 100%;}
+
+.br_over_01 {position: absolute; left: 220px; top: 40px;}
+.br_over_01 img {width: 350px;}
+.br_01 .brand_img:hover .br_over_01 img {transition: transform 0.5s; transform: scale(1.2); }
+
+
+.brand_text {float: right; width: 40%; }
+
+h2 {margin-top: 120px; font-size: 50px; letter-spacing: 2px; color: #fff;}
+.brs_text {padding-top: 50px; line-height: 1.6; font-size: 20px; font-weight: 700; letter-spacing: 1px; color: #fff; }
+
+.btn {margin:70px 0; width: 200px; text-align: right; padding: 20px 50px; background: #fff;  border-radius: 30px;  }
+.btn a {display: block;  font-size: 22px; font-weight: 900; letter-spacing: 3px; color: #e80289; }
+.btn:hover a {transition: transform 0.2s; transform: scale(1.2); }
+
+
+
+
+/*.br_02*/
+
+.br_02 {position: relative; padding-bottom: 850px;}
+
+.brand_text_02 {float: left; width: 40%; }
+
+.brand_img_02 {float: right; width: 55%; }
+.brand_img_02 img {width: 100%; text-align: right;}
+
+
+.br_over_02 {position: absolute; right: 200px; top: 120px;}
+.br_over_02 img {width: 350px;}
+.br_02 .brand_img_02:hover .br_over_02 img {transition: transform 0.5s; transform: scale(1.2); }
+
+
+
+
+/*.br_03*/
+.br_03 {position: relative; padding-bottom: 500px;}
+
+.br_over_03 {position: absolute; left: 180px; top: 200px;}
+.br_over_03 img {width: 420px;}
+.br_03 .brand_img:hover .br_over_03 img {transition: transform 0.5s; transform: scale(1.2); }
+
+
+
+/*section2*/
+.jelly_bar { text-align: center; }
+.jelly_bar li {display: inline-block; width: 200px; height: 200px;  cursor: pointer; padding-bottom: 50px; opacity: 0.4; }
+.jelly_bar li img {width: 130px;}
+
+.jelly_bar li:hover {opacity: 1; width: 150px;}
+.jelly_bar li:hover img {width: 150px;}
+
+.jelly_title {margin: 20px 0; font-family: "Fredoka One"; color: #fff; }
+
+
+.jelly_bar_over {opacity: 1;}
+
+
+.jelly_bar li img {width: 120px;}
+
+.jelly_prouct li p {float: left; width: 30%; margin-right: 5%; padding-bottom: 50px; }
+.jelly_prouct li p:nth-child(3n) {margin-right: 0; }
+
+.jelly_prouct li p img {width: 100%;}
+
+
+/*section3*/
+#section3 {margin-bottom: 200px;}
+#main_video .video iframe {width: 100%;}
+
+
+
+
+@media screen and (max-width:1200px) {
+
+    /*visual*/
+    #visual {display: none;}
+    #sub_visual {display: block;}
+
+
+
+    /*section*/
+    #section {padding: 100px 0;}
+
+    h1 {margin-left: 10px; padding: 0; padding-bottom: 100px; font-size: 50px;}
+
+    #section1 {padding-top: 40px;}
+
+
+    /*section1*/
+    /*.br_01*/
+    .br_01 {padding-bottom: 550px;}
+
+    .br_over_01 {left: 120px; top: 15px;}
+    .br_over_01 img {width: 200px;}
+
+
+    h2 {margin-top: 30px; line-height: 1.5; font-size: 30px; letter-spacing: 2px; color: #fff;}
+    .brs_text {padding-top: 25px; font-size: 15px; font-weight: 700; }
+
+    .btn {margin:30px 0; width: 160px; padding: 15px 40px; background: #fff;  border-radius: 30px;  }
+    .btn a {font-size: 16px; font-weight: 900; text-align: center; }
+
+
+
+    /*.br_02*/
+
+    .br_02 {padding-bottom: 620px;}
+
+    .br_over_02 {right: 80px; top: 40px;}
+    .br_over_02 img {width: 240px;}
+
+
+
+    /*.br_03*/
+    .br_03 { padding-bottom: 300px;}
+
+    .br_over_03 {left: 75px; top: 90px;}
+    .br_over_03 img {width: 280px;}
+
+
+
+
+
+    /*section2*/
+    .jelly_bar li {display: inline-block; width: 100px;  height: 200px;  margin: 0 10px; text-align: center; padding-bottom: 50px; opacity: 0.4; }
+    .jelly_bar li img {width: 40px;}
+
+    .jelly_bar li:hover {opacity: 1; width: 120px;}
+    .jelly_bar li:hover img {width: 120px;}
+
+    .jelly_title {margin: 30px 0; text-align: center; }
+
+
+    .jelly_bar_over {opacity: 1;}
+
+
+    .jelly_bar li img {width: 120px;}
+
+
+    /*#section3*/
+    #video {width: 90%;}
+
+}
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+   
+   /*section*/
+   #section {padding: 80px 0;}
+
+   h1 {margin-left: 5px;padding-bottom: 100px; font-size: 30px;}
+
+   #section1 {padding-top: 20px;}
+
+
+
+    /*section1*/
+    /*.br_01*/
+    .br_01 {padding-bottom: 300px;}
+
+    .br_over_01 {left: 56px; top: 3px;}
+    .br_over_01 img {width: 120px;}
+
+    
+    h2 {margin-top: 0; font-size: 20px; }
+    .brs_text {padding-top: 5px; font-size: 12px; font-weight: 700; }
+
+    .btn {margin:15px 0; width: 100px; padding: 10px 20px; }
+    .btn a {font-size: 12px;}
+
+
+
+    /*.br_02*/
+
+    .br_02 {padding-bottom: 350px;}
+
+    .br_over_02 {right: 45px; top: 16px;}
+    .br_over_02 img {width: 130px;}
+
+
+
+    
+    /*.br_03*/
+    .br_03 { padding-bottom: 400px;}
+
+    .br_03 h2 {margin-top: 0; font-size: 17px; letter-spacing: 0; }
+    .br_over_03 {left: 45px; top: 55px;}
+    .br_over_03 img {width: 140px;}
+
+
+        
+
+    /*section2*/
+    .jelly_bar li {display: inline-block; width: 40px;  height: 200px;  margin: 0 10px; text-align: center; padding-bottom: 50px; opacity: 0.4; }
+    .jelly_bar li img {width: 40px;}
+
+    .jelly_bar li:hover {opacity: 1; width: 50px;}
+    .jelly_bar li:hover img {width: 50px;}
+
+    .jelly_title {margin: 30px 0; text-align: center; }
+
+
+    .jelly_bar_over {opacity: 1;}
+
+
+    .jelly_bar li img {width: 120px;}
+   
+}
